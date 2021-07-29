@@ -13,6 +13,7 @@
 		BF4824C926B30B7A00AA69F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4824C826B30B7A00AA69F9 /* Preview Assets.xcassets */; };
 		BF4824D426B30B7B00AA69F9 /* APIHackwichTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4824D326B30B7B00AA69F9 /* APIHackwichTests.swift */; };
 		BF4824DF26B30B7B00AA69F9 /* APIHackwichUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4824DE26B30B7B00AA69F9 /* APIHackwichUITests.swift */; };
+		BF4824ED26B3133600AA69F9 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4824EC26B3133600AA69F9 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		BF4824DA26B30B7B00AA69F9 /* APIHackwichUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APIHackwichUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4824DE26B30B7B00AA69F9 /* APIHackwichUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHackwichUITests.swift; sourceTree = "<group>"; };
 		BF4824E026B30B7B00AA69F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4824EC26B3133600AA69F9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				BF4824C126B30B7600AA69F9 /* APIHackwichApp.swift */,
 				BF4824C326B30B7600AA69F9 /* ContentView.swift */,
+				BF4824EC26B3133600AA69F9 /* SwiftyJSON.swift */,
 				BF4824C526B30B7A00AA69F9 /* Assets.xcassets */,
 				BF4824CA26B30B7A00AA69F9 /* Info.plist */,
 				BF4824C726B30B7A00AA69F9 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4824ED26B3133600AA69F9 /* SwiftyJSON.swift in Sources */,
 				BF4824C426B30B7600AA69F9 /* ContentView.swift in Sources */,
 				BF4824C226B30B7600AA69F9 /* APIHackwichApp.swift in Sources */,
 			);
